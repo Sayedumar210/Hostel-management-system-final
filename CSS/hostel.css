@@ -1,0 +1,89 @@
+#heading {
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 300%;
+    color: rgb(10, 41, 155);
+    width: 100%;
+}
+
+.heading {
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    background-color: rgb(138, 196, 244);
+    border-radius: 10px;
+    margin-bottom: 2px;
+}
+
+#hostel_img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/Hos.jpg);
+    background-size: 100% 100%;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 5px;
+    padding-top: 2px;
+    margin-top: 2px;
+    margin-bottom: 6px;
+    box-shadow: 3px;
+}
+
+#main_page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0%;
+    margin-top: 0.6%;
+    margin-bottom: 1%;
+}
+
+#info_video {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(158, 207, 247);
+    display: flex;
+    flex-direction: row;
+    margin-top: 8px;
+}
+
+#iframes {
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#info {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 150%;
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-top: 8px;
+    padding: 10px;
+    margin-right: 10px;
+    background-color: wheat;
+}
+
+#gal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 0.2%;
+    padding-bottom: 0.2%;
+    align-items: center;
+    background-color: rgb(158, 207, 247);
+    margin-top: 9px;
+    margin-bottom: 8px;
+}
+
+.pics {
+    justify-content: center;
+    margin: 20px;
+    padding: 5px;
+
+}

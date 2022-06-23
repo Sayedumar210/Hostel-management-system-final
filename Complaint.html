@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/style2.css">
+    
+</head>
+
+<body>
+    <header>
+        <div id="top">
+            <div class="head" id="logo">
+                <a href="https://iitgoa.ac.in/" title="Go to IIT Goa website" target="_blank"><img id="logoimage"
+                        src="img/logo_full.png" alt="IIT Goa logo"></a>
+            </div>
+            <div class="head" id="name">
+                <a href="https://www.facebook.com/IITGoaOfficial/" title="facebook page" target="_blank"><img
+                        class="social" src="img/fb.png" alt="IIT Goa logo"></a>
+                <a href="https://instagram.com/iitgoaoffical?igshid=YmMyMTA2M2Y=" title="Instagram page"
+                    target="_blank"><img class="social" src="img/insta.png" alt="IIT Goa logo"></a>
+                <a href="https://twitter.com/iitgoaofficial?lang=en" title="Twitter page" target="_blank"><img
+                        class="social" src="img/twitter.png" alt="IIT Goa logo"></a>
+
+            </div>
+        </div>
+        <hr id="hrule">
+        <nav id="navbar">
+            <div id="menu">
+                <div class="menu_items" id="homelogo"><a class="links_navz`" href="index.html"><img id="homeimage" src="img/home.png" alt="HOME"></a></div>
+                <div class="menu_items"><a class="links_nav" href="About.html">ABOUT</a></div>
+                <div class="menu_items"><a class="links_nav"  href="Sports.html">SPORTS</a></div>
+                <div class="menu_items"> <a class="links_nav" href="Mess.html">MESS</a></div>
+                <div class="menu_items"><a class="links_nav" href="Clubs.html">CLUBS</a></div>
+                <div class="menu_items"><a class="links_nav" href="https://ams.iitgoa.ac.in/amsgoa/">STUDENT LOGIN</a></div>
+                <div class="menu_items"><a class="links_nav" href="Complaint.html">COMPLAINT</a></div>
+            </div>
+        </nav>
+    </header>
+    <div id="main">
+        <div class="box">
+                <h2 id="complaint_heading">!! COMPLAINT FORM !!</h2>
+            <hr id="hr_c">
+                <form action="" method="get" style="padding-left: 15%;">
+                    <label for="Legal_name" id="label">Your Legal Name</label><br>
+                    <input type="text" name="Legal_name" placeholder="eg. Ranjana Choudhary" required>
+                    <br><br><br>
+                    <label for="Roll_number" id="label">Your Roll Number</label><br>
+                    <input type="number" name="Roll_number" placeholder="eg. 2103155" required>
+                    <br><br><br>
+                    <label for="hostel_block" id="label">Selet your hostel block</label><br>
+                    <select name="hostel_block" required>
+                        <option value="B1">B1</option>
+                        <option value="B2">B2</option>
+                        <option value="B3">B3</option>
+                        <option value="G1">G1</option>
+                    </select>
+                    <br><br><br>
+                    <label for="room" id="label">Enter your room number</label><br>
+                    <input type="number" name="room" placeholder="eg. 213" required>
+                    <br><br><br>
+                    <label for="subject" id="label">Subject of complaint</label><br>
+                    <select name="subject" required>
+                        <option value="Mess food">Mess food</option>
+                        <option value="Hostel issues">Hostel issues</option>
+                        <option value="Sports/Gym">Sports/Gym</option>
+                        <option value="Ragging">Ragging</option>
+                        <option value="others">Others</option>
+                    </select>
+                    <br><br><br>
+                    <label for="description" id="label">Describe your problem</label><br>
+                    <textarea name="description" cols="75" rows="10" required></textarea>
+                    <br><br><br>
+                    <button type="submit" onclick="alert('Form submitted')">Submit</button>
+                    <br><br><br><br>
+                </form>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="foot_items">
+            <div class="foot_head">
+                CONTACT US
+            </div>
+            <hr>
+            <div style="font-size: 1.2vw;font-family: Georgia, 'Times New Roman', Times, serif;">For Administrative
+                Matters
+            </div>
+            <div style="font-size: 1.2vw;font-family: 'Courier New', Courier, monospace;font-weight: 500;"> Indian
+                Institute of Technology
+                Goa<br>
+                At Goa College of Engineering Campus,<br>
+                Farmagudi, Ponda-403401, Goa<br>
+                0832-2490-894
+            </div>
+            <br>
+            <div style="font-size: 1.2vw;font-family: Georgia, 'Times New Roman', Times, serif;">For Academic and
+                Students Affairs
+            </div>
+            <div style="font-size: 1.2vw;font-family: 'Courier New', Courier, monospace;font-weight: 500;">
+                Indian Institute of Technology Goa<br>
+                At Goa College of Engineering Campus,<br>
+                Farmagudi, Ponda-403401, Goa<br>
+                academic{at}iitgoa.ac.in<br>
+                0832-2490-870
+            </div>
+        </div>
+        <div class="foot_items">
+            <div class="foot_head">
+                MEDIA
+            </div>
+            <hr>
+            <div style="font-size: 1.3vw; font-family: Georgia, 'Times New Roman', Times, serif; font-weight: 50;">
+                <a class="links" href="https://www.facebook.com/IITGoaOfficial/" title="facebook page" target="_blank" >Facebook</a><br>
+                <a class="links" href="https://instagram.com/iitgoaoffical?igshid=YmMyMTA2M2Y=" title="Instagram page" target="_blank" >Instagram</a><br>
+                <a class="links" href="https://twitter.com/iitgoaofficial?lang=en" title="Twitter page" target="_blank" >Twitter</a><br>
+            </div>
+        </div>
+        <div class="foot_items">
+            <div class="foot_head">
+                IMPORTANT LINKS
+            </div>
+            <hr>
+            <div style="font-size: 1.3vw;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight: 500;">
+                <a class="links" href="https://iitgoa.ac.in/" title="IIT Goa" target="_blank" >IIT Goa</a><br>
+                <a class="links" href="https://iitgoa.ac.in/medical-center/" title="IIT Goa Medical" target="_blank" >Medical Centre</a><br>
+                <a class="links" href="https://iitgoa.ac.in/wp-content/campus_map/" title="Map" target="_blank" >IIT Goa Campus Map</a><br>
+                <a class="links" href="https://iitgoa.ac.in/student-counseling/" title="Your Dost" target="_blank" >Student Counselling</a><br>
+                <a class="links" href="https://iitgoa.ac.in/hall-office/" title="Hall Office" target="_blank" >Hall Office</a><br>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
