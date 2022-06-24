@@ -57,6 +57,10 @@
 
 }
 
+.content{
+    background-color: skyblue;
+}
+
 #homelogo {
 
     text-decoration: solid;
@@ -77,6 +81,21 @@
     box-shadow: 6px 6px 6px grey;
 }
 
+.links_nav{
+    color: black;
+    text-decoration: dashed;
+}
+
+.links{
+    color: black;
+    text-decoration: dashed;
+}
+
+.links_nav:hover{
+    color: lightgray;
+    text-decoration: dashed;
+}
+
 .menu_items {
     text-decoration: solid;
     font-size: 1.3vw;
@@ -95,6 +114,25 @@
     background-color: lightgrey;
     box-shadow: 6px 6px 6px grey;
     /* object-position: top;  */
+}
+
+.menu_items:hover{
+    text-decoration: solid;
+    font-size: 1.4vw;
+    font-weight: 600;
+    text-align: center;
+    align-items: center;
+    padding: 0.95%;
+    border: 1px solid lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 11px;
+    margin-left: 0.55%;
+    margin-bottom: 0.55%;
+    margin-right: 0.55%;
+    width: auto;
+    height: auto;
+    background-color: black;
+    box-shadow: 6px 6px 6px grey;
 }
 
 #homeimage {
@@ -226,6 +264,19 @@
     margin: 1%;
 }
 
+.vl{
+    border-left: 3px solid black;
+    height: 500px;
+}
+
+hr{
+    border-top: 3px solid black;
+}
+
+td{
+    text-align: center;
+}
+
 #gallerycontainer {
     display: flex;
     flex-direction: column;
@@ -239,6 +290,7 @@
     margin: 0.5vw;
     /* border: 1px solid black; */
     height: 50vh;
+    background-color: skyblue;
     /* box-shadow: 10px 10px 8px gray; */
 }
 
